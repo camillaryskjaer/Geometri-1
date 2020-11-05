@@ -29,6 +29,7 @@ namespace Geometry
             return SideA * SideB;
         }
 
+//Bedre navngivning som f.eks. CalculatePerimeter
         public override double Perimeter()
         {
             return 2 * (SideA + SideB);
